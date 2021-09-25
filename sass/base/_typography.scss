@@ -1,0 +1,19 @@
+body {
+    color: $body-text-color;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.heading {
+    &-primary {
+        color: $tertiary-color;
+        font-size: 4.4rem;
+        line-height: 1.2;
+    }
+}
+
+.body-text {
+    font-size: 2rem;
+    line-height: 1.6;
+}

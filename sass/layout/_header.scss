@@ -1,0 +1,42 @@
+.header {
+    background-color: $primary-color;
+    height: 90vh;
+    padding: 2.5rem 0 5rem 22rem;
+    z-index: 99;
+
+    &__main-content {
+        display: flex;
+        flex-direction: row;
+        z-index: 9999;
+
+
+        &--text {
+            margin-top: 14rem;
+            padding-right: 10rem;
+            z-index: 99999;
+        }
+    }
+
+    &__logo-box {
+        position: relative;
+        z-index: 99999;
+    }
+
+    &__logo {
+        width: 2.8rem;
+    }
+
+    &::before {
+        content: "";
+        background-color: $primary-color-light;
+        height: 90vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        clip-path: polygon(0 0, 100% 0%, 100% 50vh, 0 90vh);
+        z-index: 999;
+    }
+}
+
+
