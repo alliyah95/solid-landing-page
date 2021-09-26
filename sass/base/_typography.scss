@@ -11,9 +11,17 @@ body {
         font-size: 4.4rem;
         line-height: 1.2;
     }
+
+    &-secondary {
+        color: $tertiary-color;
+    }
 }
 
 .body-text {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1.6;
+}
+
+.body-text--bigger {
+    font-size: 2rem;
 }
