@@ -20,8 +20,8 @@ body {
 .body-text {
     font-size: 1.8rem;
     line-height: 1.6;
-}
 
-.body-text--bigger {
-    font-size: 2rem;
+    &--bigger {
+        font-size: 2rem;
+    }
 }
