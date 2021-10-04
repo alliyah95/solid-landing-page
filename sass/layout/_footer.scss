@@ -1,0 +1,51 @@
+.footer {
+    padding: 0 23rem;
+    &__logo-box {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .social-logo {
+        display: inline-block;
+        color: $secondary-color;
+
+        &:not(:last-child) {
+            margin-right: 3rem;
+        }
+    }
+
+    &__text {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        
+        .nav {
+            &-list {
+                list-style: none;
+
+                &--item {
+                    display: inline-block;
+
+                    &:not(:last-child) {
+                        margin-right: 3rem;
+                    }
+                }
+
+                &--link {
+                 
+                    &:link,
+                    &:visited {
+                        text-decoration: none;
+                        color: $body-text-color;
+                    }
+
+                    &:hover,
+                    &:active{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
