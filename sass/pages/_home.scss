@@ -8,10 +8,30 @@
     flex-direction: column;
     text-align: center;
     padding: 1rem 20rem;
+    margin-bottom: 10rem;
 
     &__heading {
         padding: 0 25rem;
         line-height: 1.5;
     }
+}
+
+.section-getintouch {
+    padding: 0 23rem;
+    margin-bottom: 10rem;
+
+    &__title {
+        font-size: 3.3rem;
+    }
+
+    .container {
+        display: flex;
+        flex-basis: 0 0 70%;
+        background-color: $quinary-color;
+        padding: 7rem 2rem 7rem 3rem;
+        justify-content: space-between;
+    }
+
+    
 }
 
