@@ -194,6 +194,9 @@ body {
         display: inline-block; }
         .footer__text .nav-list--item:not(:last-child) {
           margin-right: 3rem; }
+          @media (max-width: 25.4rem) {
+            .footer__text .nav-list--item:not(:last-child) {
+              margin-right: 1rem; } }
       .footer__text .nav-list--link:link, .footer__text .nav-list--link:visited {
         text-decoration: none;
         color: #8A94A7; }
