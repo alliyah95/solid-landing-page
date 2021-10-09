@@ -1,5 +1,11 @@
 .footer {
     padding: 0 23rem;
+
+    @include respond(tab) {
+        padding: 0 5rem;
+    }
+
+
     &__logo-box {
         display: flex;
         justify-content: space-between;
