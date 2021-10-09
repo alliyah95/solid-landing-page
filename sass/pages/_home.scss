@@ -1,6 +1,6 @@
 .section-features {
     padding: 1rem 15rem;
-    margin-bottom: 7rem;
+    margin: 15rem 0 7rem;
 }
 
 .section-preorder {
@@ -10,15 +10,27 @@
     padding: 1rem 20rem;
     margin-bottom: 10rem;
 
+    @include respond(tab) {    
+        padding: 1rem 17rem;
+    }
+
     &__heading {
         padding: 0 25rem;
         line-height: 1.5;
+
+        @include respond(tab) {
+            padding: 0;
+        }
     }
 }
 
 .section-getintouch {
     padding: 0 23rem;
     margin-bottom: 10rem;
+
+    @include respond(tab) {
+        padding: 0 5rem;
+    }
 
     &__title {
         font-size: 3.3rem;
@@ -30,6 +42,7 @@
         background-color: $quinary-color;
         padding: 7rem 2rem 7rem 3rem;
         justify-content: space-between;
+
     }
 
     
