@@ -1,5 +1,8 @@
-# solid-landing-page
+# Solid Landing Page Template 
 ---
-TODO
-- mobile design
-- animations
+A landing page template I recreated to practice responsive web design.<br>
+[View original website ➜](https://preview.cruip.com/solid/)
+
+TODO <br>
+``- animations`` <br>
+``- header and footer illustrations``
